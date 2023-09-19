@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+
+// import MyCom from './03/MyCom';
 import './App.css';
+// import MyDiv from './03/MyDiv';
+import Box from './04/Box.js';
+
+// import Clock from './01/Clock';
+// import Lotto from './02/Lotto';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // <Clock /> //태그는 <> 써서 함
+    // <Mycom/>
+    // <MyCom/>
+    // <MyDiv/>
+    <Box/>
+    );
+    
+    // <Lotto/>
+    // 
 }
 
 export default App;
