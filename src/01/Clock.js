@@ -4,7 +4,7 @@
 
 import Clockimage from "./Clockimage";
 import Clocktime from "./Clocktime";
-import MyComN from "../03/MyComN";
+// import MyComN from "../03/MyComN";
 const Clock = () => {
 
 
@@ -13,7 +13,7 @@ const Clock = () => {
             <header className="App-header">
                <Clockimage/>
                <Clocktime/>
-               <MyComN num= {100}/>
+               {/* <MyComN num= {100}/> */}
                 
             </header>
         </div>
