@@ -19,6 +19,7 @@ const Clocktime = () => {
             setDt(new Date().toLocaleTimeString());
         }, 1000);
 
+        //콜백함수로 써야 시계가 돌아감
         return () =>{clearInterval(t)} ;
     }, []) ;
 
