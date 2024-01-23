@@ -3,7 +3,7 @@
 import './App.css';
 // import MyDiv from './03/MyDiv';
 import Box from './04/Box.js';
-
+import testUsetState from './12/testUsetState.js';
 // import Clock from './01/Clock';
 // import Lotto from './02/Lotto';
 
@@ -13,7 +13,8 @@ function App() {
     // <Mycom/>
     // <MyCom/>
     // <MyDiv/>
-    <Box/>
+    // <Box/>
+    <testUsetState/>
     );
     
     // <Lotto/>
