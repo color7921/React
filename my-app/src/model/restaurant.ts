@@ -22,8 +22,10 @@ export type Address = {
         zipCode:Number;
 }
 
-type Menu = {
+export type Menu = {
     name:string;
     price:number;
     category:string;
 }
+
+export type AddressWithoutZip = Omit<Address, 'zipCode'>
