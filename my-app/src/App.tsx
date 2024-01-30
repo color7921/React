@@ -10,7 +10,7 @@ let data:Restaurant = {
   address:{
       city: 'Busan',
       detail: 'somewhere',
-      zipCode: 231312
+      zipCode: 231312 
   },
   menu:[{name:"rose pasta",price:20000,category:"PASTA"},{name:"garlic soup", price:6000,category:"SOUP"}]
 }
@@ -23,6 +23,7 @@ const changeAddress = (address:Address) => {
   return (
     <div className="App">
     <Store info={myRestaurant} changeAddress={changeAddress}/>
+    
     </div>
   );
 }
