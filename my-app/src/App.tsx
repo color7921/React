@@ -23,7 +23,6 @@ const changeAddress = (address:Address) => {
   return (
     <div className="App">
     <Store info={myRestaurant} changeAddress={changeAddress}/>
-    
     </div>
   );
 }
